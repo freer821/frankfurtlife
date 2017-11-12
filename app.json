@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/user/user",
-    "pages/login/login"
+    "pages/login/login",
+    "pages/car/car"  
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -23,7 +24,7 @@
         "selectedIconPath":"images/tab_home_sel@2x.png"
       },
       {
-        "pagePath": "pages/car_source/car_source",
+        "pagePath": "pages/car/car",
         "text": "订车",
         "iconPath":"images/tab_car_source_def@2x.png",
         "selectedIconPath":"images/tab_car_source_sel@2x.png"
