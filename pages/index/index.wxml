@@ -1,0 +1,74 @@
+<view class="home-wrap">
+  <swiper indicator-dots="true" autoplay="{{autoplay}}" duration="{{duration}}" interval="{{interval}}">
+    <view>
+      <swiper-item>
+        <view>
+          <image src="../../images/frankfurt.jpg" mode="scaleToFill center" class="banner"></image>
+        </view>
+      </swiper-item>
+    </view>
+  </swiper>
+  <view class="scroll-txt">
+    <text class="scroll-ads">Willkommen {{userInfo.nickName}}</text>
+  </view>
+  <view class="workbench">
+    <text class="title">分类</text>
+    <view class="list">
+      <view class="items">
+        <image src="../../images/food.png"></image>
+        <text>美食</text>
+      </view>
+      <view class="items">
+        <image src="../../images/shopping.jpg"></image>
+        <text>购物</text>
+      </view>
+      <view class="items">
+        <image src="../../images/view.png"></image>
+        <text>景点</text>
+      </view>
+      <view class="items">
+        <image src="../../images/travel.png"></image>
+        <text>交通</text>
+      </view>
+    </view>
+    <view class="list">
+      <view class="items">
+        <image src="../../images/hotel.png"></image>
+        <text>住宿</text>
+      </view>
+      <view class="items">
+        <image src="../../images/study.png"></image>
+        <text>留学</text>
+      </view>
+      <view class="items">
+        <image src="../../images/embassy.png"></image>
+        <text>大使馆信息</text>
+      </view>
+      <view class="items">
+        <image src="../../images/desk_order@2x.png"></image>
+        <text>留言</text>
+      </view>
+    </view>
+  </view>
+  <view class="workbench">
+    <text class="title">服务</text>
+    <view class="list">
+      <view class="items">
+        <image src="../../images/home_car_source@2x.png" class="service-icon"></image>
+        <text>我要找车</text>
+      </view>
+      <view class="items">
+        <image src="../../images/home_logistical@2x.png" class="service-icon"></image>
+        <text>包裹发送</text>
+      </view>
+      <view class="items">
+        <image src="../../images/home_finance@2x.png" class="service-icon"></image>
+        <text>点餐外卖</text>
+      </view>
+      <view class="items">
+        <image src="../../images/home_headlines@2x.png" class="service-icon"></image>
+        <text>头条</text>
+      </view>
+    </view>
+  </view>
+</view>
